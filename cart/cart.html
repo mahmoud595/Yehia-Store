@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yehia Store</title>
+    <link rel="icon" type="image/x-icon" sizes="32x32" href="../images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../index.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="cart.js"></script>
+</head>
+<body>
+    
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="../index.html"><img src="../images/logo2.png"  width="125px" height="140px"></a>
+                </div>
+                <div class="nav">
+                    <ul id="menuitems">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../products/products.html">Products</a></li>
+                        <li><a href="../aboutus/aboutus.html">About</a></li>
+                        <li><a href="../contactus/contactus.html">Contact</a></li>
+                        <li><a href="../account/account.html">Account</a></li>
+        
+                    </ul>
+                </div>
+                <a id="cartlogo"><img src="../images/cart.png" width="30px" height="30px"></a>
+                <img src="../images/menu.png" id="menu-icon">
+            </div>
+  
+    
+        </div>
+    
+        <div class="small-container cart-page">
+            <table id="cart-table">
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>SubTotal</th>
+                </tr>
+           
+            </table>
+            <div class="total-price">
+                <table>
+                    <tr>
+                        <td>SubTotal</td>
+                        <td id="sub"></td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td id="tax"></td>
+                    </tr>
+                    <td>Total Price</t>
+                    <td id="totalprice"></td>
+                </table>
+                <div>
+                    <button id="orderbtn" class="btn">Order</button>
+                </div>
+               
+            </div>
+           
+        </div>
+ 
+
+
+
+
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and ios mobile phone</p>
+                        <div class="app-logo">
+                            <img src="../images/play-store.png">
+                            <img src="../images/app-store.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="../images/logo2.png">
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2020 - Mahmoud Yehia</p>
+            </div>
+        </div>
+    
+</body>
+</html>
